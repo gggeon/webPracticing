@@ -1,0 +1,70 @@
+@charset "utf-8"
+
+/* logo img */
+
+img[src$='ssafy.png'] {
+  /* 이미지의 src속성에 있는 값이 ssafy.png로 끝나는 img */
+  width: 100px;
+  height: 70px;
+}
+/* a css */
+a:link {
+  text-decoration: none;
+  font-size: 11px;
+  color: blue;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  cursor: pointer;
+  background-color: green;
+  color: #fff;
+}
+a:active {
+  text-decoration: underline;
+}
+a.bold {
+  font-weight: bold;
+}
+a.color1 {
+  color: aquamarine;
+}
+a.color2 {
+  color: blueviolet;
+}
+
+/* span 구분 */
+span.seperator {
+  font-size: 0.3em;
+  margin: 0 5px;
+  color: pink;
+}
+/* 메뉴영역 */
+div.menu{
+  text-align: right;
+}
+/* 푸터영역 */
+#footer{
+  text-align: center;
+}
+
+td.btn{
+  text-align: center;
+}
+
+ tr, td , th{
+  border: solid 1px blue;
+  margin: 10px;
+  padding: 5px; 
+}
+
+input[type="submit"].normal, input[type ="reset"].normal, input[type="button"].normal{
+  height: 25px;
+  width: 80px;
+}
+input[type="submit"].color1{
+  background-color: teal;
+  color: white;
+  border-radius: 12px;
+}
